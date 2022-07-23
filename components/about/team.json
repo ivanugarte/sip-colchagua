@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Thiago Dias",
+    "role": "Full Stack Developer",
+    "imageUrl": "/img/logoSipBlack.png",
+    "bio": "I have been a developer for more than 7 years, I am passionate about the frontend but without leaving the backend behind, a few months in 3D, 29 years talking to computers.",
+    "linkedinUrl": "https://www.linkedin.com/in/thiago-dias-ugarte"
+  },
+  {
+    "name": "Iván Ugarte",
+    "role": "Full Stack Developer",
+    "imageUrl": "/img/logoSipWhite.png",
+    "bio": "IT Consultant Working with Mainframe for 28 years and 3 years of programming in the Web world as Frontend and Backend, and I'm still learning a lot.",
+    "twitterUrl": "#",
+    "linkedinUrl": "https://www.linkedin.com/in/ivan-andres-ugarte-mella-bb7675b3/"
+  }
+]

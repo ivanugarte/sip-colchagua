@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "href": "/",
+    "slug": "",
+    "parentId": null,
+    "active": true,
+    "activeNavbar": true,
+    "activeFooter": true,
+    "children": [
+      {
+        "id": 2,
+        "name": "Quiénes somos ",
+        "href": "#about",
+        "slug": "",
+        "parentId": 1,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 3,
+        "name": "Que es un Panel Sip",
+        "href": "#panelsip",
+        "slug": "",
+        "parentId": 1,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 4,
+        "name": "Ventajas",
+        "href": "#advantage",
+        "slug": "",
+        "parentId": 1,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Modelos",
+    "href": "/",
+    "slug": "",
+    "parentId": null,
+    "active": true,
+    "activeNavbar": true,
+    "activeFooter": true,
+    "children": [
+      {
+        "id": 6,
+        "name": "Modelo A",
+        "href": "/modeloa",
+        "slug": "",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 7,
+        "name": "Modelo B",
+        "href": "/modelob",
+        "slug": "modelob",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 8,
+        "name": "Modelo C",
+        "href": "/modeloc",
+        "slug": "modeloc",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Paneles Sip",
+    "href": "/",
+    "slug": "",
+    "parentId": null,
+    "active": true,
+    "activeNavbar": true,
+    "activeFooter": true,
+    "children": [
+      {
+        "id": 10,
+        "name": "Panel A",
+        "href": "/panela",
+        "slug": "",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 11,
+        "name": "Panel B",
+        "href": "/modelob",
+        "slug": "modelob",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      },
+      {
+        "id": 12,
+        "name": "Panel C",
+        "href": "/modeloc",
+        "slug": "modeloc",
+        "parentId": 3,
+        "active": true,
+        "activeNavbar": true,
+        "activeFooter": true,
+        "children": []
+      }
+    ]
+  }
+]
