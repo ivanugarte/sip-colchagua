@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <Slider deviceType="desktop" />
+      {/* <Slider deviceType="desktop" /> */}
       <About />
       <Advantage/>
       <PanelSip/>

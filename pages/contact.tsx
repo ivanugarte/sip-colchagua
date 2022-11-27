@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 // import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import { Layout } from "../components/layout/Layout";
+import { Layout } from "../components/layout/Layout"
 import { Contact } from "../components/contact/Contact"
 // import { setState } from "../store/store";
 
@@ -18,7 +18,7 @@ export default function ContactPage() {
     <Layout>
       <Contact />
     </Layout>
-  );
+  )
 }
 
 // export const getStaticProps = async ({ locale }) => ({
