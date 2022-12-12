@@ -3,13 +3,13 @@ import Nav from "./nav/Nav"
 import Whatsapp from "./whatsapp/Whatsapp"
 
 
-export const Layout = ( )=>{
+export const Layout = ( {children} )=>{
   return (
     <>
       <Whatsapp/>
       <Nav />
+      {children}
       <Cards />
-      {/* {children} */}
     </>
   )
 }
