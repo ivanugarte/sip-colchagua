@@ -20,7 +20,8 @@
     "react-dom": "18.2.0",
     "react-google-recaptcha": "^2.1.0",
     "react-multi-carousel": "^2.8.1",
-    "sweet2": "^2.0.0"
+    "sweet2": "^2.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/node": "17.0.44",

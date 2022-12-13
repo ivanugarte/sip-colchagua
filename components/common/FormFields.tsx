@@ -36,7 +36,7 @@ export const InputText = (props: FieldHookConfig<string> & InputTextProps) => {
   )
 }
 
-export const TextArea = (props: FieldHookConfig<string> & TextAreaProps) => {
+export const TextArea = (props: FieldHookConfig<string>) => {
   const [field, meta, helpers] = useField(props)
   return (
     <div className="my-2">
@@ -47,7 +47,7 @@ export const TextArea = (props: FieldHookConfig<string> & TextAreaProps) => {
           htmlFor={field.name}
           className="sr-only block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
         >
-          {labelCase(props.label)}
+          {/* {labelCase(props.label)} */}
         </label>
         <Field
           {...field}
