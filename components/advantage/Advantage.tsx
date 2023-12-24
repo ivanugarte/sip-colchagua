@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Advantage() {
   return (
-    <section className="bg-white overflow-hidden" id="advantage">
+    <section className="bg-red-100 overflow-hidden" id="advantage">
       <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -53,8 +53,8 @@ export default function Advantage() {
         <div className="relative lg:flex lg:items-center">
           <div className="hidden lg:block lg:flex-shrink-0">
             <img
-              className="h-64 w-64  xl:h-80 xl:w-80"
-              src="/img/panelSip.png"
+              className="h-64 w-64  xl:h-80 xl:w-80 rounded"
+              src="/img/foto13.jpeg"
               alt=""
             />
           </div>
@@ -74,16 +74,19 @@ export default function Advantage() {
             </svg>
             <blockquote className="relative">
               <div className="mb-4 text-5xl leading-9 font-medium text-gray-900">
-                Ventajas
+                Vino Orgánico 
               </div>
               <div className="text-2xl leading-9 font-medium text-gray-900">
                 <p>
-                  Ventajas Panel Sip.
-                  Rápida Construcción, Fácil instalación, Aislación acústica, Aislación de humedad, Alta resistencia estructural, Alta aislación térmica, Ignífugos.
+                  Vino.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat quasi odit quisquam molestiae asperiores libero cumque autem deserunt rem! 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nemo.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nemo.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nemo.
 
                 </p>
               </div>
-              {/* <footer className="mt-8">
+              <footer className="mt-8">
                   <div className="flex">
                     <div className="flex-shrink-0 lg:hidden">
                       <img
@@ -93,11 +96,11 @@ export default function Advantage() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Judith Black</div>
-                      <div className="text-base font-medium text-indigo-600">CEO, Tuple</div>
+                      <div className="text-base font-medium text-gray-900">fuente de la información </div>
+                      <div className="text-base font-medium text-indigo-600">nombre</div>
                     </div>
                   </div>
-                </footer> */}
+                </footer>
             </blockquote>
           </div>
         </div>

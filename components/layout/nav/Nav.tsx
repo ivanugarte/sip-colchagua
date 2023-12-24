@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router' 
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -13,17 +13,17 @@ export default function Nav() {
 
   return (
     <>
-      <Disclosure as="nav" className="bg-white shadow fixed w-full z-[1010]">
+      <Disclosure as="nav" className="bg-red-100 z-[1010] shadow fixed w-full ">
         {({ open }) => (
           <>
-            <div className="navComponent mx-auto px-4 sm:px-6 lg:max-w-screen-xl md:max-w-7xl lg:px-8">
+            <div className="mx-auto px-4 sm:px-6 lg:max-w-screen-xl md:max-w-7xl lg:px-8">
               <div className="flex h-28 justify-between">
                 <div className="flex">
-                  <div className="navLogo flex flex-shrink-0 items-center my-auto">
+                  <div className="flex flex-shrink-0 items-center my-auto">
                     {/* <div className="relative block h-16 w-16 md:hidden"> */}
-                    <div className="relative block h-24 w-24">
+                    <div className="relative block h-28 w-28">
                       <Image
-                        src="/img/logoSipWhite.png"
+                        src="/img/logo.jpeg"
                         alt="Workflow"
                         layout="fill"
                         objectFit="contain"

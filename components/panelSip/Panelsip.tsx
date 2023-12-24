@@ -54,7 +54,7 @@ export default function Panelsip() {
           <div className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64  xl:h-80 xl:w-80"
-              src="/img/panelSip.png"
+              src="/img/foto13.jpeg"
               alt=""
             />
           </div>
@@ -83,7 +83,7 @@ export default function Panelsip() {
 
                 </p>
               </div>
-              {/* <footer className="mt-8">
+              <footer className="mt-8">
                   <div className="flex">
                     <div className="flex-shrink-0 lg:hidden">
                       <img
@@ -97,7 +97,7 @@ export default function Panelsip() {
                       <div className="text-base font-medium text-indigo-600">CEO, Tuple</div>
                     </div>
                   </div>
-                </footer> */}
+                </footer>
             </blockquote>
           </div>
         </div>

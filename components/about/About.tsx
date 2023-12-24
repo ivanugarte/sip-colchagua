@@ -1,29 +1,26 @@
 
 const people = [
   {
-    name: 'Sip Colchagua',
+    name: 'aqui parte de la empresa ',
     role: 'Cual es nuetro Rol',
     imageUrl:
-      '/img/logoSipBlack.png',
+      '/img/foto14.jpeg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
-    linkedinUrl: '#',
+    // linkedinUrl: '#',
   },
   // More people...
 ]
 
 export default function About() {
   return (
-    <div className="bg-white" id="about">
+    <div className="bg-red-100" id="about" >
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+          <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Sobre Nosotros</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl  mt-12">Sobre BuenaVentura</h2>
             <p className="text-xl text-gray-500">
-             SIP COLCHAGUA está compuesto por un equipo de profesionales con amplio conocimiento en la fabricación 
-             e instalación de paneles SIP, orientada a entregar soluciones eficientes a los requerimientos de construcción 
-             habitacional e industrial de sus clientes, con la fabricación de paneles aislantes, estructurales y térmicos (SIP)
-              para muros, losas y techos; utilizando para esto, materiales con la calidad requerida por nuestros procesos productivos.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae exercitationem cumque blanditiis incidunt quibusdam.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -32,7 +29,7 @@ export default function About() {
               className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0"
             >
               {people.map((person) => (
-                <li key={person.name} className="sm:py-8">
+                <li key={person.name} className="sm:py-8 mt-16">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                       <img className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt="" />
